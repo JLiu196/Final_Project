@@ -35,7 +35,7 @@ http://data.insideairbnb.com/united-states/il/chicago/2018-11-15/data/reviews.cs
 
 Once downloaded, unzip the files.
 
-All necessary links can be found at
+All necessary links can also be found at
 http://insideairbnb.com/get-the-data.html
 
 

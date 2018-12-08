@@ -45,5 +45,7 @@ git clone the_repo
 ##### #run the project
 cd the_repo
 
+change working directory in R to yours
+
 Rscript Final_Project.R
 

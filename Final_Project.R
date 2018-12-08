@@ -150,7 +150,7 @@ message("Mean of price.y if $149.80")
 ggplot(five_cities, aes(x=price.y)) + geom_histogram(binwidth = 15)+ggtitle("Listing Price Distribution") + xlab("Listing Price")+ylab("Frequency")
 message("Price are heavily right skewed")
 fit <- aov(price.y ~ state, data = five_cities)
-##Tukey comparison
+##Tukey Comparison Test
 TukeyHSD(fit)
 plot(TukeyHSD(fit))
 ##The output indicates the differences in all groups are significant.

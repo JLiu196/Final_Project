@@ -5,7 +5,7 @@ library(bit64)
 library(lubridate)
 message("All library loaded")
 
-setwd("~/Desktop/STAT 184/Final_Project/Five_US_Major_Cities")
+setwd("~/Desktop/Final_Project/Five_US_Major_Cities")
 
 LA_calendar <- fread("LA_calendar.csv")
 LA_listings <- fread("LA_listings.csv")
